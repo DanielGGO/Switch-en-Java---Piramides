@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 Scanner teclado   = new Scanner(System.in);
-       
-        System.out.println("     Menu        ");
+       System.out.println("     Menu        ");
         System.out.println("1.-\t\tHacia arriba");
         System.out.println("2.-\t\tHacia abajo");
         System.out.println("3.-\t\tHacia derecha");
@@ -46,17 +45,20 @@ case 3:
 case 4:
            System.out.println("Dame un caracter del tipo *,+,-,$,&");
            c = teclado.next().charAt(0);
-                 
+         System.out.println("           "+c);
+         System.out.println("          "+c+""+c);
+         System.out.println("         "+c+""+c+""+c);
+         System.out.println("        "+c+""+c+""+c+""+c);
+         System.out.println("       "+c+""+c+""+c+""+c+""+c);
+         System.out.println("      "+c+""+c+""+c+""+c+""+c+""+c);
+         System.out.println("       "+c+""+c+""+c+""+c+""+c);
+         System.out.println("        "+c+""+c+""+c+""+c);
+         System.out.println("         "+c+""+c+""+c);
+         System.out.println("          "+c+""+c);
+         System.out.println("           "+c);
             
             
-           System.out.println("\n               "+c);
-           System.out.println("            "+c+""+c);
-           System.out.println("       "+c+""+c+""+c);
-           System.out.println("  "+c+""+c+""+c+""+c);
-           System.out.println("       "+c+""+c+""+c);
-           System.out.println("            "+c+""+c);
-           System.out.println("                 "+c);
-                break;
+                        break;
 case 5:
               System.out.println("Saludos, Hasta la proxima.... :) ");  
                 break;
